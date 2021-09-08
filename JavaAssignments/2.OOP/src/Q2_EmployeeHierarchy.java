@@ -67,6 +67,7 @@ public class Q2_EmployeeHierarchy {
     }
 
 }
+//ANOTHER METHOD
 /*class Employee {
     int salary;
 
