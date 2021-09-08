@@ -67,6 +67,7 @@ public class Q3_Bank {
 
     }
 }
+//ANOTHER METHOD
 /*
 class Bank {
     public static int amount=0;
