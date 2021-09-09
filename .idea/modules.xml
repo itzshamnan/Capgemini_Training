@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/1.DataStructure/1.DataStructure.iml" filepath="$PROJECT_DIR$/JavaAssignments/1.DataStructure/1.DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/10.Java11/10.Java11.iml" filepath="$PROJECT_DIR$/JavaAssignments/10.Java11/10.Java11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/2.OOP/2.OOP.iml" filepath="$PROJECT_DIR$/JavaAssignments/2.OOP/2.OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/3.String/3.String.iml" filepath="$PROJECT_DIR$/JavaAssignments/3.String/3.String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/4.Exception/4.Exception.iml" filepath="$PROJECT_DIR$/JavaAssignments/4.Exception/4.Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/5.Generics/5.Generics.iml" filepath="$PROJECT_DIR$/JavaAssignments/5.Generics/5.Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/7.Annotations/7.Annotations.iml" filepath="$PROJECT_DIR$/JavaAssignments/7.Annotations/7.Annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/8.Lambda/8.Lambda.iml" filepath="$PROJECT_DIR$/JavaAssignments/8.Lambda/8.Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/9.Streams/9.Streams.iml" filepath="$PROJECT_DIR$/JavaAssignments/9.Streams/9.Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Capgemini_Training.iml" filepath="$PROJECT_DIR$/.idea/Capgemini_Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Junit/Junit.iml" filepath="$PROJECT_DIR$/Junit/Junit.iml" />
+    </modules>
+  </component>
+</project>
