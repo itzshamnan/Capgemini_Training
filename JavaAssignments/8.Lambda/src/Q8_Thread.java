@@ -14,8 +14,11 @@ public class Q8_Thread {
         list1.add(4);
         list1.add(5);
         list1.add(6);
-        Consumer<List<Integer>> display = list2->list2.forEach(System.out::println);
-        Thread t = new Thread();
-        t.run();
+        Thread t1=new Thread(()->{
+            for(int i:list1) {
+                System.out.println(i);
+            }
+        });
+        t1.start();
     }
 }
