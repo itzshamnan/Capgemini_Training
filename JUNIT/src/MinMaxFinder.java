@@ -27,6 +27,3 @@ class MinMaxFinder{
 
     }
 }
- class Q1 {
-
-}
