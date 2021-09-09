@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Armstrong Number
 public class Q1_Armstrong {
     public static void main(String[] args) {
         int i,rem;double sum=0;
