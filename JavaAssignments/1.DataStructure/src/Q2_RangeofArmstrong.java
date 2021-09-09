@@ -1,3 +1,4 @@
+//Armstrong Numbers between the range 100-1000
 public class Q2_RangeofArmstrong {
     public static void main(String[] args)
     {
