@@ -1,27 +1,38 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Q4_Students {
-    public static void main(String[] args) throws IOException {
-        var path = "C:\\Users\\mshamnan\\Downloads\\Java11Assignments_StudentList.txt";
+    public static void main(String[] args) {
+        int count=0;
         try {
-            String names= Files.readString(Path.of(path));
-
-            ArrayList<String > namelist = new ArrayList<>(Arrays.asList(names));
-
-            System.out.println(namelist);
-
-            namelist.forEach(p->p.trim());
-
-            System.out.println("-----------------------------");
-            System.out.println(namelist.get(1));
+            Scanner scanner = new Scanner(new File("C:\\Users\\mshamnan\\Downloads\\Java11Assignments_StudentList.txt"));
 
 
-        } catch (IOException e) {
+            while(scanner.hasNext())
+            {
+                String line = scanner.next();
+
+                String lineAfterTrim = line.trim();
+
+                System.out.println(lineAfterTrim);
+
+                count=count+1;
+            }
+            System.out.println("Number of students are : "+count);
+
+
+        }
+
+        catch (FileNotFoundException e) {
+
             e.printStackTrace();
         }
+
     }
 }
