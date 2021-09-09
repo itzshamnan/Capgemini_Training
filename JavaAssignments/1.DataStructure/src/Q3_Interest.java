@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Simple and Compound Interest
 public class Q3_Interest {
     public static double simple(double p,double r,double t)
     {
