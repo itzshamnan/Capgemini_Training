@@ -36,8 +36,15 @@ public class Q3_ExecuteAnnotation {
         Execute annotationObject1 = methodObject1.getAnnotation(Execute.class);
         Execute annotationObject2 = methodObject2.getAnnotation(Execute.class);
         Execute annotationObject3 = methodObject3.getAnnotation(Execute.class);
-        System.out.println(annotationObject1.sequence());
-        System.out.println(annotationObject2.sequence());
-        System.out.println(annotationObject3.sequence());
+        System.out.println("First method Sequence : "+annotationObject1.sequence());
+        System.out.println("Second method Sequence : "+annotationObject2.sequence());
+        System.out.println("Third method Sequence : "+annotationObject3.sequence());
+        System.out.println("Executing in the sequence order ");
+        obj.mymethod3();
+        obj.mymethod1();
+        obj.mymethod2();
+
+
+
     }
 }
