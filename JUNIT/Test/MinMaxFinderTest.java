@@ -6,7 +6,7 @@ public class MinMaxFinderTest {
 
 
     /*@Test
-    public void testAnswer() {                      //willwork by uncommenting in main class
+    public void testAnswer() {
         MinMaxFinder m = new MinMaxFinder();
         int[] arr = {54,2,3,98,18,1};
         int [] arr1 = new int[10];

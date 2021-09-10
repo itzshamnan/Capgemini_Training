@@ -5,7 +5,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
-class HooksTest {
+public class HooksTest {
     Hooks h1;
     @BeforeEach
     void setUp() {
@@ -26,15 +26,15 @@ class HooksTest {
         System.out.println("Printing after all");
     }
     @Test
-    void testingprint1() {
-        //hooksTest h1 = new hooksTest();
+    public void testingprint1() {
+        Hooks h1 = new Hooks();
         int i = h1.printmessage(20);
         Assert.assertEquals("This is working",1,i);
     }
 
     @Test
-    void testingprint2() {
-        //hooksTest h1 = new hooksTest();
+    public void testingprint2() {
+        Hooks h1 = new Hooks();
         int i = h1.printmessage(8);
         Assert.assertEquals("This is working",0,i);
     }

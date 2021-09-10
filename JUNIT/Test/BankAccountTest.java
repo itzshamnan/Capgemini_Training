@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-class BankAccountTest {
+public class BankAccountTest {
     @Test
     public void withdraw() {
     }
