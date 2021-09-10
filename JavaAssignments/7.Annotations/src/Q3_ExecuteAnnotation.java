@@ -48,3 +48,13 @@ public class Q3_ExecuteAnnotation {
 
     }
 }
+ /*for (int i = 1;i<=3;i++)
+         {
+         if (i==m1.getAnnotation(Execute.class).sequence())          //getting sequence of method1
+        m.method1();
+        if (i==m2.getAnnotation(Execute.class).sequence())          //getting sequence of method2
+        m.method2();
+        if (i==m3.getAnnotation(Execute.class).sequence())          //getting sequence of method3
+        m.method3();
+
+        }*/
