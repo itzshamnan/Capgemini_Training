@@ -1,0 +1,27 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+p{
+    background-color:#ccf9ff;
+    margin-left: 1%;
+    
+
+}
+
+p.p1{
+    border: solid 5px black;
+    margin-left: 0%;
+}
+p.p2{
+    border: solid 3px black;
+    margin-left:0.5%;
+}
+p.p3{
+    border: solid 1px black;
+
+}
+p.p4{
+    padding: 1%;
+}
+

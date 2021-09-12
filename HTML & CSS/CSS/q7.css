@@ -1,0 +1,14 @@
+body{
+    border-left: 1px #71c3e4 solid;
+    border-right: 1px #71c3e4 solid;
+    padding: 1%;
+}
+div{
+    border:dotted 2px rgb(30, 240, 30);
+    
+}
+p{
+    border: 1px red solid;
+    margin: 0%;
+    
+}

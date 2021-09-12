@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(79, 140, 231);
+    margin: 0%;
+    padding-bottom: 2%;
+}
+div{
+    background-color:rgb(189, 208, 224);
+    padding-bottom: 2%;
+    
+    
+    
+    
+}
+p{
+    background-color:#ccf9ff;
+    padding-bottom: 2%;
+    margin-bottom: 0%;  
+    margin-top:2%;
+   
+}
+p.extra{
+    margin-top: 0%;
+}
