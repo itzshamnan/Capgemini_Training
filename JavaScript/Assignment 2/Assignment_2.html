@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment 2
+        </title>
+    </head>
+    <body>
+        <!--Square , Double, Value-->
+        <h3>Square(Double(N))</h3>
+        Enter the number <b>N</b> : <input id="first">
+        <button onclick='composedValue(square(double()),double(),document.getElementById("first").value)'>Calculate</button>
+        <input id="answer1">
+
+
+        
+        <script >
+            var a,sq,doub,sum;
+ function double(){
+    a=Number(document.getElementById("first").value);
+    doub=a*2;
+ }   
+function square(double){   
+        sq=doub*doub;
+    }
+    
+function composedValue(double,square,a){
+    document.getElementById("answer1").value=sq;
+}
+        </script>
+    </body>
+</html>
