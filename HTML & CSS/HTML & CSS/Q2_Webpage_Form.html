@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Q2.css">
+        <title>Webpage with Form</title>
+    </head>
+    <body>
+        <div class="header">
+          
+            <a href="#default" class="title">THE ILLLUMINATI CLUB</a>
+            <div class="header-right">
+              <a class="about" href="#home">About Us</a>
+              <a href="#signup">Sign Up</a>
+              <a href="#login">Login</a>
+            </div>
+          </div>
+        <div class="main">
+           
+            <h2>Welcome to the Illuminati Club</h1>
+            <p>Join us and be part of the greatest conspiracy ever!</p>
+                <div class="field">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <form >
+                    <div class="form">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" required>
+                        <br>
+
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" required>
+                        <br>
+
+                        <label for="age">Age</label><br>
+                        <input type="number" id="age" required>
+                        <br><br>
+
+                        <p >Gender</p>
+                        <input type="radio" name="Gender" id="male" value="Male" required ><label for="male" >Male</label><br>
+                        <input type="radio" name="Gender" id="female" value="Female"><label for="female">Female</label><br>
+                        <input type="radio" name="Gender" id="other" value="Other"><label for="other">Other</label>
+                        <br><br>
+
+                        <label for="question">How did you hear about us ?</label><br>
+                        <select name="question" id="question" required>
+                            <option value="a1">Friend/Collegue</option>
+                            <option value="a2">Research</option>
+                            <option value="a3">By fate</option>
+                        </select>
+                        <br><br>
+
+                        <label for="">Select the criterias that suits you the most</label><br>
+                        <input type="checkbox" id="c1" value="awesome"><label for="c1">I am AWESOME</label><br>
+                        <input type="checkbox" id="c2" value="rich"><label for="c2">I am RICH</label><br>
+                        <input type="checkbox" id="c3" value="party"><label for="c3">I love to PARTY</label><br>
+                        <input type="checkbox" id="c4" value="rulebreaker"><label for="c4">I am a RULE BREAKER</label><br>
+                        <input type="checkbox" id="c5" value="loyal"><label for="c5">I am LOYAL</label><br>
+                        <br>
+
+                        <label for="date">Date of submission</label><br>
+                        <input type="date" id="date" required><br>
+                        <br>
+
+                        <label for="area">Why do you want to join us ?</label><br>
+                        <textarea name="area" id="area" cols="30" rows="10" required></textarea>
+                        <br><br><br>               
+                    </div>
+                    <div class="submit">
+                        <input type="submit"  value="Submit">
+                    </div>
+                    
+                </form>
+                
+                </fieldset>
+            </div>
+           
+                    
+                
+
+                
+            
+
+
+       
+
+        </div>
+
+        
+    </body>
+</html>
